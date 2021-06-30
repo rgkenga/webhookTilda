@@ -1,7 +1,7 @@
 <?php  
 header('Access-Control-Allow-Origin: *');
-$headers = "From: from@webhookservesite.ru";
+$headers = "From: rgkenga@yandex.ru";
 $message = print_r($_POST,true);
-@mail('anton.strobe@gmail.com', 'Tilda TEST', $message, $headers);
+@mail('rgkenga@yandex.ru', 'Tilda TEST', $message, $headers);
 echo "ok";
 ?>
